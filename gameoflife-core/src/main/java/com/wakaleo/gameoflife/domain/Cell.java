@@ -1,9 +1,10 @@
 package com.wakaleo.gameoflife.domain;
 
+//New comment here
+
 public enum Cell {
     LIVE_CELL("*"), DEAD_CELL(".");
 
-    //comment here
     private String symbol;
 
     private Cell(final String initialSymbol) {
